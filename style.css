@@ -71,26 +71,25 @@ header {
   height: 3px;
   background-color: #ff3300;
 }
+.bike-img {
+  filter: grayscale(100%);
+}
 
 /* fetured bike section End  */
 
-
 /* Latest News Section Start  */
 
-.cad{
-  width: 390px;
-  height: 525px;
-  background-color: #fff;
+.cad {
   padding: 25px 25px;
-  box-shadow:  0 0 5px 1px rgb(221, 221, 221);
+  background-color: #fff;
+  box-shadow: 0 0 5px 1px rgb(221, 221, 221);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  
 }
-.cad img{
+.cad img {
   box-shadow: 0 0 5px 5px rgb(0, 0, 0);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -98,7 +97,7 @@ header {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.More{
+.More {
   border: transparent;
   padding: 12px 30px;
   background-color: #ff0000 !important;
@@ -108,14 +107,14 @@ header {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  transition:all .5s ease-out;
-  -webkit-transition:all .5s ease-out;
-  -moz-transition:all .5s ease-out;
-  -ms-transition:all .5s ease-out;
-  -o-transition:all .5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
 }
 
-.cad button{
+.cad button {
   border: none;
   padding: 12px 30px;
   border: 2px solid #ff0000;
@@ -128,7 +127,60 @@ header {
 }
 /* Latest News Section End  */
 
-
 /* Happy Clients says Section Start  */
+.color {
+  color: #f05d39;
+}
+.cadd {
+  padding: 25px 25px;
+  box-shadow: 0 0 5px 1px rgb(221, 221, 221);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.cadd p {
+  line-height: 27px;
+  color: rgb(134, 127, 127);
+  padding: 0px 30px;
+}
+.cadd i {
+  color: #eb5e3b;
+  margin-right: 5px;
+}
 
 /* Happy Clients says Section End  */
+
+/* The history of honda Section Start  */
+.old {
+  box-shadow: 0 0 5px 2px #8f2d00;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+/* The history of honda Section End  */
+
+/* footer Section Start  */
+footer {
+  background-color: #0b0d17;
+}
+
+.fotTex ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.fotTex p {
+  margin-left: 50px;
+  color: #fff;
+}
+
+.fotTex span {
+  margin-left: 19px;
+  color: #ff5200;
+}
+/* footer Section End  */
