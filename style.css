@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 ol,
 ul {
@@ -13,3 +13,122 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Header Section Start  */
+
+header {
+  background-color: #264653;
+  overflow: hidden;
+}
+.manu ul li {
+  font-size: 20px;
+  padding: 0px 20px;
+}
+.manu ul li a {
+  color: #fff !important;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+
+.Nav-logo {
+  padding: 12px 0px;
+  background-color: #e76f51;
+  margin-left: 40px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.Nav-logo:hover a {
+  color: #222 !important;
+}
+.hedTex p {
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: rgb(202, 199, 199);
+  text-align: justify;
+  line-height: 30px;
+}
+.hedTex h1 {
+  font-family: Tahoma;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+/* Header Section End  */
+
+/* fetured bike section Start  */
+
+.design {
+  color: #f05d39;
+}
+.hr {
+  margin: 0 auto;
+  width: 70px;
+  height: 3px;
+  background-color: #ff3300;
+}
+
+/* fetured bike section End  */
+
+
+/* Latest News Section Start  */
+
+.cad{
+  width: 390px;
+  height: 525px;
+  background-color: #fff;
+  padding: 25px 25px;
+  box-shadow:  0 0 5px 1px rgb(221, 221, 221);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  
+}
+.cad img{
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.More{
+  border: transparent;
+  padding: 12px 30px;
+  background-color: #ff0000 !important;
+  color: #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transition:all .5s ease-out;
+  -webkit-transition:all .5s ease-out;
+  -moz-transition:all .5s ease-out;
+  -ms-transition:all .5s ease-out;
+  -o-transition:all .5s ease-out;
+}
+
+.cad button{
+  border: none;
+  padding: 12px 30px;
+  border: 2px solid #ff0000;
+  background-color: transparent;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+/* Latest News Section End  */
+
+
+/* Happy Clients says Section Start  */
+
+/* Happy Clients says Section End  */
